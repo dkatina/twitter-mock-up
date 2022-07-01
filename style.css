@@ -174,3 +174,8 @@ body{
 .prospect:hover{
     background-color: var(--hover-white);
 }
+
+svg{
+    background-color: transparent;
+    color: var(--mint)
+}
