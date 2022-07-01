@@ -1,0 +1,176 @@
+*{
+    /* border: 1px solid; */
+}
+:root{
+    --mint: rgb(19, 214, 140);
+    --text-gray: rgb(202, 202, 202);
+    --hover-white: rgba(255, 255, 255, 0.05)
+}
+
+body{
+    background-color: rgb(23, 35, 48);
+    color: white
+}
+.sidebar .badge{
+    font-size: 20px;
+}
+.badge:not(.big-tweet, .woof):hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+/* --------sidebar--------- */
+.sidebar div{
+    margin-bottom: 10px;
+}
+.big-tweet{
+    width: 100%
+}
+.mini-me{
+    position: fixed;
+    bottom: 2px;
+    width: 17%;
+    border-radius: 50px;
+}
+.mini-me:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.mini-me small{
+    padding-top: 5%;
+}
+.mini-me i{
+    padding-top: 7%;
+}
+.sidebar div span{
+    height: 48px;
+    padding-top: 14px
+}
+.tweet span{
+    background-color: rgb(19, 214, 140)
+}
+.tweet span:hover{
+    background-color: rgb(0, 180, 111)
+}
+/* ---------media---------- */
+.media{
+    border-left: 1px solid gray;
+    height: 100vh;
+    overflow: scroll;  
+}
+.sticky-home span{
+    font-size: 20px;
+}
+.pic{
+    border-radius:3%;
+}
+.text-box select{
+    border-radius: 50px;
+    border: 1px solid gray;
+    color: var(--mint);
+    background-color: transparent;
+}
+.text-box input{
+    margin-top: 30px;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+}
+.text-box .badge:not(.icon){
+    border: 1px solid var(--mint);
+}
+
+.underline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.icon{
+    color: var(--mint);
+    border-radius: 50px;
+    border: none;
+}
+.woof{
+    background-color: var(--mint);
+}
+.woof:hover{
+    background-color: rgb(0, 180, 111);
+}
+.icon:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.me-post-bottom{
+    margin-bottom: 10px;
+}
+/* Post-row */
+.post{
+    border-top: 1px solid gray;
+}
+.ppost{
+    padding-top: 10px
+}
+.post-interaction{
+    margin: 5px 0;
+}
+.int-i:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 50px
+}
+
+.name{
+    color: white;
+    font-size: 18px;
+}
+.handle{
+    color: var(--text-gray);
+    font-size: 13px;
+}
+/* right-bar */
+
+.card{
+    background-color: rgb(32, 50, 68);
+}
+.bubble{
+    border-radius: 50%;
+}
+.post-info{
+    margin-top: 10px
+}
+
+.search input{
+    background-color: rgb(32, 50, 68);
+    border-radius: 50px;
+    border: none;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.something p{
+    color: var(--text-gray);
+    font-size: 12px;
+}
+.something h4{
+    font-size: 18px;
+}
+
+.something:hover{
+    background-color: var(--hover-white);
+}
+.card-footer{
+    color: var(--mint)
+}
+
+.fol-pic{
+    height: 100%;
+}
+.compliance a, footer p{
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--text-gray);
+    font-size: 12px;
+}
+.compliance a:hover{
+    text-decoration: underline;
+}
+.prospect:hover{
+    background-color: var(--hover-white);
+}
